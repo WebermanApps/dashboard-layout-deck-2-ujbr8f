@@ -1,0 +1,233 @@
+{
+ "deck": "dashboard-layout-deck-2",
+ "title": "Dashboard Layout Deck 2",
+ "owner": "Coach",
+ "created": "2026-10-13",
+ "cards": [
+  {
+   "theme": "Top Bar And Reports",
+   "tag": "All",
+   "title": "Urgent Count Pill, Refined",
+   "text": "Now that every dashboard shares one top bar, add a small amber pill on its right showing how many decisions are owed, for example \"2 Owed\". It only appears when the count is above zero and tapping it opens the Decisions dropdown under the report.",
+   "viz": "pill",
+   "id": "d2-01",
+   "ref": "dl005"
+  },
+  {
+   "theme": "Rows And Density",
+   "tag": "All",
+   "title": "Status Dot, Refined",
+   "text": "With rows now condensed, add one small dot at the left of each row: green for done, amber for waiting on Max, gray for idle. No dot for plain info rows, and the dot always pairs with a word for color-blind readers.",
+   "viz": "dots",
+   "id": "d2-02",
+   "ref": "dl012"
+  },
+  {
+   "theme": "Top Bar And Reports",
+   "tag": "All",
+   "title": "Featured Deck Slot Below The Report",
+   "text": "Give new decks one fixed Featured slot right under the report instead of stacking big hero cards above the title.",
+   "viz": "featured",
+   "id": "d2-03",
+   "ref": "dl009"
+  },
+  {
+   "theme": "Rows And Density",
+   "tag": "All",
+   "title": "Counts In Section Headers",
+   "text": "Put the number of items next to each section header, for example Open Items 7, so you know the size before expanding.",
+   "viz": "pill",
+   "id": "d2-04",
+   "ref": "dl016"
+  },
+  {
+   "theme": "Lists And Sorting",
+   "tag": "All",
+   "title": "Filter Chips Above Lists",
+   "text": "Small outline chips such as All, Waiting, Done filter a list in place without leaving the page.",
+   "viz": "chips",
+   "id": "d2-05",
+   "ref": "dl020"
+  },
+  {
+   "theme": "Lists And Sorting",
+   "tag": "All",
+   "title": "Priority Groups Collapse By Default",
+   "text": "Group Open Items into P0, P1, P2 dropdowns, with P0 open and the rest closed with counts.",
+   "viz": "collapse",
+   "id": "d2-06",
+   "ref": "dl021"
+  },
+  {
+   "theme": "Carousels",
+   "tag": "All",
+   "title": "Apps As A Carousel",
+   "text": "Show each agent's apps as a swipeable carousel of cards with arrows and dots, instead of a long stacked list on the phone.",
+   "viz": "carousel",
+   "id": "d2-07",
+   "ref": "dl022"
+  },
+  {
+   "theme": "Carousels",
+   "tag": "All",
+   "title": "Peek The Next Card",
+   "text": "Let the next carousel card peek in at the right edge so it is obvious you can swipe.",
+   "viz": "carousel",
+   "id": "d2-08",
+   "ref": "dl025"
+  },
+  {
+   "theme": "Carousels",
+   "tag": "All",
+   "title": "Grid On Desktop, Carousel On Phone",
+   "text": "The same cards become a carousel on the phone and a plain grid at 1470 and up, so nothing is hidden on big screens.",
+   "viz": "grid",
+   "id": "d2-09",
+   "ref": "dl026"
+  },
+  {
+   "theme": "Typography",
+   "tag": "All",
+   "title": "One Type Scale For All Dashboards",
+   "text": "Use one shared scale for title, section header, row title and body text. Today the title ranges from 28 to 104 pixels across dashboards.",
+   "viz": "type",
+   "id": "d2-10",
+   "ref": "dl027"
+  },
+  {
+   "theme": "Typography",
+   "tag": "All",
+   "title": "Scale Text Up On Big Screens",
+   "text": "Raise body text to about 20 pixels at 2560 wide. Several dashboards keep 16 pixel text on a 2560 screen, which is hard to read from a distance.",
+   "viz": "type",
+   "id": "d2-11",
+   "ref": "dl028"
+  },
+  {
+   "theme": "Typography",
+   "tag": "All",
+   "title": "Smaller Hero Title On Phone",
+   "text": "Keep the phone title around 32 pixels so it fits on one or two lines and leaves room for the report.",
+   "viz": "type",
+   "id": "d2-12",
+   "ref": "dl029"
+  },
+  {
+   "theme": "Big Screens",
+   "tag": "All",
+   "title": "Content Width Cap Or Real Grid",
+   "text": "At 2560, either cap content at about 1600 pixels or switch to a three or four column grid. Several pages stretch rows across the full 2560.",
+   "viz": "grid",
+   "id": "d2-13",
+   "ref": "dl032"
+  },
+  {
+   "theme": "Big Screens",
+   "tag": "All",
+   "title": "Two Column Desktop Layout",
+   "text": "At 1470, put Report and Decisions on the left and Apps and Open Items on the right, so the page is one screen tall.",
+   "viz": "twocol",
+   "id": "d2-14",
+   "ref": "dl033"
+  },
+  {
+   "theme": "Big Screens",
+   "tag": "All",
+   "title": "Bigger Cards On Large Monitors",
+   "text": "At 2560, grow card padding and icon size with the text so cards do not look like tiny tiles on a big monitor.",
+   "viz": "grid",
+   "id": "d2-15",
+   "ref": "dl035"
+  },
+  {
+   "theme": "Phone Layout",
+   "tag": "All",
+   "title": "Shorter Phone Pages",
+   "text": "Target under about four phone screens of scrolling by collapsing long sections. Some dashboards run past ten screens today.",
+   "viz": "phone",
+   "id": "d2-16",
+   "ref": "dl037"
+  },
+  {
+   "theme": "Phone Layout",
+   "tag": "All",
+   "title": "Thumb-Reach Main Actions",
+   "text": "Put the main action for a card at the bottom right of the card on the phone, where the thumb lands.",
+   "viz": "phone",
+   "id": "d2-17",
+   "ref": "dl038"
+  },
+  {
+   "theme": "Icons, Color And Hover",
+   "tag": "All",
+   "title": "One Accent Per Dashboard",
+   "text": "Each agent gets one accent color used only for its pill, active tab and link underline. The rest stays black, white and grey.",
+   "viz": "color",
+   "id": "d2-18",
+   "ref": "dl043"
+  },
+  {
+   "theme": "Icons, Color And Hover",
+   "tag": "All",
+   "title": "Accent Bar On Urgent Rows Only",
+   "text": "Use a thin left color bar only on urgent or waiting rows, so color always means something.",
+   "viz": "dots",
+   "id": "d2-19",
+   "ref": "dl045"
+  },
+  {
+   "theme": "Navigation And Footer",
+   "tag": "All",
+   "title": "Jump Links Under The Title",
+   "text": "A short row of jump links (Decisions, Apps, Open, Recent) under the title takes you straight to each section.",
+   "viz": "chips",
+   "id": "d2-20",
+   "ref": "dl048"
+  },
+  {
+   "theme": "Navigation And Footer",
+   "tag": "All",
+   "title": "Back To Top Button",
+   "text": "After two screens of scrolling, a small Back To Top button appears above the Share row.",
+   "viz": "phone",
+   "id": "d2-21",
+   "ref": "dl049"
+  },
+  {
+   "theme": "Dashboard-Specific Fixes",
+   "tag": "Coach",
+   "title": "Coach Questionnaire Collapsed",
+   "text": "The Top Coaching Suggestions questionnaire fills the first screens. Show it as one Featured card that opens the questions.",
+   "viz": "featured",
+   "id": "d2-22",
+   "ref": "dl068"
+  },
+  {
+   "theme": "Dashboard-Specific Fixes",
+   "tag": "Blog",
+   "title": "Blog Width Cap At 2560",
+   "text": "The Blog page stretches to the full 2560 width. Cap it or move drafts into a four-column grid.",
+   "viz": "grid",
+   "id": "d2-23",
+   "ref": "dl061"
+  },
+  {
+   "theme": "Dashboard-Specific Fixes",
+   "tag": "Dump",
+   "title": "Dump Thin Columns At 2560",
+   "text": "At 2560 the three Dump columns are thin and the page is short. Use wider cards and larger text.",
+   "viz": "grid",
+   "id": "d2-24",
+   "ref": "dl075"
+  },
+  {
+   "theme": "Dashboard-Specific Fixes",
+   "tag": "UpKeep",
+   "title": "UpKeep Dropdowns Closed By Default",
+   "text": "Four of eight dropdowns start open. Start them closed with counts.",
+   "viz": "collapse",
+   "id": "d2-25",
+   "ref": "dl095"
+  }
+ ]
+}
